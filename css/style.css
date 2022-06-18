@@ -573,7 +573,10 @@ h6 {
 }
 
 @media (max-width:768px) {
-
+    .services__header {
+        flex-direction: column;   
+    }
+    
     .services__header p {
         font-size: 12px;
     }
@@ -607,12 +610,6 @@ h6 {
     .footer__list {
         margin-top: 20px;
         text-align: center;
-    }
-}
-
-@media(max-width:796px) {
-    .services__header p {
-        font-size: 9px;
     }
 }
 
